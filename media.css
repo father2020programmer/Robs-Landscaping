@@ -1,0 +1,127 @@
+:root{
+    --color1: #1C9954;
+    --color2: #AFDFE3;
+    --color3: #273A42;
+    --font1:  'Barlow Condensed', sans-serif;;
+    --font2: 'Cormorant Garamond', serif;;
+}
+
+
+@media screen and 
+(max-width: 1280px) and
+(min-width: 750px) {
+
+    .container{
+        margin: 0 10% 0 10%;
+    }
+
+    hr {
+        border-top: dotted 7px;
+        border-color: var(--color1);
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .title-mato{
+        font-size: 1.25rem;
+        top: -50px;
+        text-align: center;
+    }
+
+    .title-logo{
+        width: 200px;
+        height: 200px;
+    }
+
+    .title-img{
+        width: 20rem;
+        height: auto;
+    }
+
+    .about-p{
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .service-list{
+        font-size: 1.25rem;
+    }
+
+    .service-item{
+        padding-bottom: 1.5rem;
+    }
+
+    .footer-logo{
+        width: 125px;
+        height: 125px;
+    }
+
+    .contact-email{
+        font-size: 1.25rem;
+        padding: 1rem 1.5rem;
+    }
+    
+}
+
+@media screen and 
+(max-width: 750px) {
+
+    .container{
+        margin: 0 2% 0 2%;
+    }
+
+    hr{
+        border-top: dotted 4px;
+        border-color: var(--color1);
+    }
+
+    .title{
+        font-size: 1.5rem;
+    }
+
+    .title-logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .title-mato{
+        text-align: center;
+        font-size: 1.15rem;
+        top: -30px
+    }
+
+    .title-img{
+        display: none;
+    }
+
+    .about-p{
+        font-size: 1.15rem;
+        line-height: 1.5rem;
+    }
+
+    .service-list{
+        font-size: 1.15rem;
+    }
+
+    .service-item{
+        padding-bottom: 1rem;
+    }
+
+    .footer-logo{
+        width: 95px;
+        height: 95px;
+    }
+
+    .contact-phone{
+        font-size: 1.15rem;
+        top: -25px;
+    }
+
+    .contact-email{
+        font-size: 1.15rem;
+        padding: .75rem 1.25rem;
+    }
+    
+}
