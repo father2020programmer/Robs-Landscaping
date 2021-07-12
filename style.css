@@ -1,0 +1,118 @@
+:root{
+    --color1: #1C9954;
+    --color2: #AFDFE3;
+    --color3: #273A42;
+    --font1:  'Barlow Condensed', sans-serif;;
+    --font2: 'Cormorant Garamond', serif;;
+}
+
+hr{
+    width: 10%;
+    border: none;
+    border-top: dotted 10px;
+    border-color: var(--color1);
+    padding: 2rem 0;
+}
+
+body{
+    margin: 0;
+    background-image: url('/images/tile_background.png');
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color3);
+    padding: 3rem 0;
+}
+
+.container{
+    width: 50vw;
+    height: auto;
+    margin: 0 25% 0 25%;
+    padding: 1%;
+    background-color: var(--color2);
+}
+
+.icon{
+    color: var(--color1);
+    padding: 0 1rem;
+}
+
+.title{
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+/* Header */
+
+
+.title-logo{
+    width: 400px;
+    height: 400px;
+}
+
+.title-mato{
+    font-size: 1.5rem;
+    font-family: var(--font2);
+    position: relative;
+    top: -80px;
+}
+
+.title-img{
+    width: 30rem;
+    height: auto;
+    padding: 0 0 5rem 0; 
+}
+
+/* About US */
+
+
+
+.about-p{
+    padding: 2% 7%;
+    font-size: 2rem;
+    font-family: var(--font1);
+    line-height: 3rem;
+}
+
+/* Services */
+
+.service-list{
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.service-item{
+    padding-bottom: 2rem;
+    font-family: var(--font1);
+}
+
+/* Footer */
+
+.contact-phone{
+    font-size: 1.5rem;
+    position: relative;
+    top: -50px;
+}
+
+.contact-email{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+.contact-email:hover{
+    background-color: var(--color3);
+    color: var(--color2);
+}
+
+.copyright{
+    padding-top: 3rem;
+}
+
