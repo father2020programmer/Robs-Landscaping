@@ -51,6 +51,7 @@
 
     .service-item{
         padding-bottom: 1.5rem;
+        left: -30px;
     }
 
     .footer-logo{
@@ -70,6 +71,7 @@
 
     .container{
         margin: 0 10% 0 10%;
+        padding: .5rem;
     }
 
     hr{
@@ -93,7 +95,8 @@
     }
 
     .title-img{
-        display: none;
+        width: 100px;
+        height: 100px;
     }
 
     .about-p{
@@ -107,6 +110,7 @@
 
     .service-item{
         padding-bottom: 1rem;
+        left: -10px;
     }
 
     .footer-logo{
@@ -122,6 +126,10 @@
     .contact-email{
         font-size: 1.15rem;
         padding: .75rem 1.25rem;
+    }
+
+    .copyright{
+        font-size: .7rem;
     }
     
 }
